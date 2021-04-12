@@ -1,0 +1,18 @@
+@use 'variables' as var;
+
+body {
+  color: var.$color-clear;
+}
+.section--bg-orange {
+  background-color: var.$color-orange;
+}
+.section--bg-cyan1 {
+  background-color: var.$color-dark-cyan;
+}
+.section--bg-cyan2 {
+  background-color: var.$color-very-dark-cyan;
+}
+
+.attribution a {
+  color: var.$color-orange;
+}

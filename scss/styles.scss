@@ -1,12 +1,2 @@
-@use 'variables';
-body {
-  color: variables.$color-dark-cyan;
-}
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: variables.$color-orange;
-}
+@use 'base';
+@use 'theme';

@@ -1,3 +1,5 @@
+@use 'variables' as var;
+
 body {
   font-family: "lexen Deca", sans-serif;
 }
@@ -19,7 +21,7 @@ body {
 }
 
 p {
-  font-size: 15px;
+  font-size: var.$size-main;
 }
 
 .attribution {
@@ -27,6 +29,7 @@ p {
   text-align: center;
 }
 
+// Grace's visually hidden helper
 .screen-reader-only {
   border: 0 !important;
   clip: rect(1px, 1px, 1px, 1px) !important;
@@ -40,25 +43,3 @@ p {
   width: 1px !important;
   white-space: nowrap !important;
 }
-
-body {
-  color: rgba(255, 255, 255, 0.75);
-}
-
-.section--bg-orange {
-  background-color: #e38826;
-}
-
-.section--bg-cyan1 {
-  background-color: #006970;
-}
-
-.section--bg-cyan2 {
-  background-color: #004241;
-}
-
-.attribution a {
-  color: #e38826;
-}
-
-/*# sourceMappingURL=styles.css.map */
