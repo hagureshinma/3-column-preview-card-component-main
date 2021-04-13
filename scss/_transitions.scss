@@ -1,0 +1,11 @@
+@use 'variables' as var;
+
+.button {
+  transition: all linear 250ms;
+}
+.button:hover,
+button:focus {
+  outline: none;
+  background-color: transparent;
+  color: var.$color-gray;
+}

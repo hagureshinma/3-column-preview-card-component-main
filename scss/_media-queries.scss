@@ -1,0 +1,14 @@
+@media (min-width: 925px) {
+  .main {
+    margin: auto;
+    display: flex;
+  }
+
+  .section--br-start {
+    border-radius: 0.5em 0 0 0.5em;
+  }
+
+  .section--br-end {
+    border-radius: 0 0.5em 0.5em 0;
+  }
+}

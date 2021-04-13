@@ -1,27 +1,55 @@
 @use 'variables' as var;
 
 body {
-  font-family: "lexen Deca", sans-serif;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  font-family: "Lexend Deca", sans-serif;
 }
 
 .main {
-  padding: 5.86em 1.6em;
+  padding: 5.86em 1.5em;
 }
 
 .section {
-  padding: 3.2em;
+  width: clamp(308px, 87vw, 328px);
+  padding: 3.1em;
+  box-sizing: border-box;
 }
 
-.section--br-top {
+.section--br-start {
   border-radius: 0.5em 0.5em 0 0;
 }
 
-.section--br-bottom {
+.section--br-end {
   border-radius: 0 0 0.5em 0.5em;
 }
 
+h1,
+h2 {
+  font-family: "Big Shoulders Text", cursive;
+  color: var.$color-gray;
+}
+
+h2 {
+  font-size: 2.3em;
+  text-transform: uppercase;
+}
+
 p {
-  font-size: var.$size-main;
+  font-size: 0.9em;
+  line-height: 1.8;
+  margin-bottom: 2em;
+}
+
+.button {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.95em;
+  padding: 0.8em 2em;
+  border-radius: 2em;
+  border: 2px solid var.$color-gray;
+  background: var.$color-gray;
+  cursor: pointer;
 }
 
 .attribution {
