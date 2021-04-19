@@ -12,7 +12,7 @@ body {
 }
 
 .section {
-  width: clamp(308px, 87vw, 328px);
+  width: 308px;
   padding: 3.1em;
   box-sizing: border-box;
 }
@@ -37,7 +37,7 @@ h2 {
 }
 
 p {
-  font-size: 0.9em;
+  font-size: 0.93em;
   line-height: 1.8;
   margin-bottom: 2em;
 }
